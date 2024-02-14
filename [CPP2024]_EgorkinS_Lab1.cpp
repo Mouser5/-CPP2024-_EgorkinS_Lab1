@@ -13,7 +13,7 @@ void Roots(const double a, const double b, const double D,double & x1, double & 
 int main()
 {
     double a = 0, b = 0, c = 0, D = 0, x1 = 0, x2 = 0;
-    //cin >> a >> b >> c;
+    cin >> a >> b >> c;
     Discriminant(a, b, c, D);
     if (D < 0) {
         cout << "No roots";
@@ -22,5 +22,11 @@ int main()
     else {
         Roots(a, b, D, x1, x2);
     }
-
+    if (x1 == x2) {
+        cout << "There is one root: " << x1;
+    }
+    else {
+        cout << "There are two roots: " << x1 << " ; " << x2;
+    }
+    return(0);
 }
