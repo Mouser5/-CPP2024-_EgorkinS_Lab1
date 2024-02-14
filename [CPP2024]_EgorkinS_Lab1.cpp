@@ -4,9 +4,15 @@
 #include <iostream>
 using namespace std;
 
+double Discriminant(){
+  
+}
+
 int main()
 {
-
+  double a=0,b=0,c=0,d=0;
+  cin >> a>>b>>c>>d;
+   
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
