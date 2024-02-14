@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void Discriminant(const double &a, const double &b, const double &c, double &D) {
+void Discriminant(const double a, const double b, const double c, double &D) {
     D = b * b - 4 * a * c;
 }
 
